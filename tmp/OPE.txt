@@ -1,0 +1,2108 @@
+1_SemanticTracking, 1_carDark: 1/1
+error
+{Error using <a href="matlab:helpUtils.errorDocCallback('save')" style="font-weight:bold">save</a>
+Cannot create 'results_Ours_OPEcarDark_SemanticTracking.mat' because '.\results' does not exist.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('main_running', 'C:\Users\JINGJING\Desktop\ST\tracker_benchmark_v1.0\main_running.m', 172)" style="font-weight:bold">main_running</a> (<a href="matlab: opentoline('C:\Users\JINGJING\Desktop\ST\tracker_benchmark_v1.0\main_running.m',172,0)">line 172</a>)
+        save([finalPath s.name '_' t.name '.mat'], 'results');
+} 
+main_running
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+1_SemanticTracking, 1_carDark: 1/1
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbquit; end
+main_running
+1_SemanticTracking, 1_carDark: 1/1
+if system_dependent('IsDebugMode')==1, dbstep; end
+main_running
+1_SemanticTracking, 1_carDark: 1/1
+dbstep
+<a href="matlab: opentoline('C:\Users\JINGJING\Desktop\ST\tracker_benchmark_v1.0\main_running.m',136,1)">136 </a>                switch t.name
+dbstep
+<a href="matlab: opentoline('C:\Users\JINGJING\Desktop\ST\tracker_benchmark_v1.0\main_running.m',137,1)">137 </a>                    case {'VR','TM','RS','PD','MS'}
+dbstep
+<a href="matlab: opentoline('C:\Users\JINGJING\Desktop\ST\tracker_benchmark_v1.0\main_running.m',138,1)">138 </a>                    otherwise
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbquit; end
+main_running
+1_SemanticTracking, 1_carDark: 1/1
+error
+{Error using <a href="matlab:helpUtils.errorDocCallback('save')" style="font-weight:bold">save</a>
+Cannot create 'results_Ours_OPEcarDark_SemanticTracking.mat' because '.\results' does not exist.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('main_running', 'C:\Users\JINGJING\Desktop\ST\tracker_benchmark_v1.0\main_running.m', 176)" style="font-weight:bold">main_running</a> (<a href="matlab: opentoline('C:\Users\JINGJING\Desktop\ST\tracker_benchmark_v1.0\main_running.m',176,0)">line 176</a>)
+        save([finalPath s.name '_' t.name '.mat'], 'results');
+} 
+main_running
+1_SemanticTracking, 1_carDark: 1/1
+error
+{Error using <a href="matlab:helpUtils.errorDocCallback('save')" style="font-weight:bold">save</a>
+Cannot create 'carDark_SemanticTracking.mat' because '.\results\results_Ours_OPE' does not exist.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('main_running', 'C:\Users\JINGJING\Desktop\ST\tracker_benchmark_v1.0\main_running.m', 176)" style="font-weight:bold">main_running</a> (<a href="matlab: opentoline('C:\Users\JINGJING\Desktop\ST\tracker_benchmark_v1.0\main_running.m',176,0)">line 176</a>)
+        save([finalPath s.name '_' t.name '.mat'], 'results');
+} 
+main_running
+1_SemanticTracking, 1_carDark: 1/1
+error
+{Error using <a href="matlab:helpUtils.errorDocCallback('save')" style="font-weight:bold">save</a>
+Cannot create 'carDark_SemanticTracking.mat' because '.\results\results_Ours_OPE' does not exist.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('main_running', 'C:\Users\JINGJING\Desktop\ST\tracker_benchmark_v1.0\main_running.m', 176)" style="font-weight:bold">main_running</a> (<a href="matlab: opentoline('C:\Users\JINGJING\Desktop\ST\tracker_benchmark_v1.0\main_running.m',176,0)">line 176</a>)
+        save([finalPath s.name '_' t.name '.mat'], 'results');
+} 
+main_running
+1_SemanticTracking, 1_carDark: 1/1
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbquit; end
+main_running
+1_SemanticTracking, 1_carDark: 1/1
+if system_dependent('IsDebugMode')==1, dbstep; end
+Loading images and models...
+Initializing scale estimator...
+Starting parallel pool (parpool) using the 'local' profile ... connected to 1 workers.
+Initializing NetC...
+Initializing NetT...
+Processing frame 2/393: NetC and NetT working... 
+Processing frame 2/393: NetC and NetT adaptation 1 time(s)... 
+Processing frame 2/393: 4.006061 seconds
+Processing frame 3/393: NetC and NetT working... 
+Processing frame 3/393: 0.732627 seconds
+Processing frame 4/393: NetC and NetT working... 
+Processing frame 4/393: 0.784844 seconds
+Processing frame 5/393: NetC and NetT working... 
+Processing frame 5/393: 0.742902 seconds
+Processing frame 6/393: NetC and NetT working... 
+Processing frame 6/393: 0.808444 seconds
+Processing frame 7/393: NetC and NetT working... 
+Processing frame 7/393: 0.845616 seconds
+Processing frame 8/393: NetC and NetT working... 
+Processing frame 8/393: 0.736894 seconds
+Processing frame 9/393: NetC and NetT working... 
+Processing frame 9/393: 0.761347 seconds
+Processing frame 10/393: NetC and NetT working... 
+Processing frame 10/393: 0.740601 seconds
+Processing frame 11/393: NetC and NetT working... 
+Processing frame 11/393: 0.741264 seconds
+Processing frame 12/393: NetC and NetT working... 
+Processing frame 12/393: 0.739032 seconds
+Processing frame 13/393: NetC and NetT working... 
+Processing frame 13/393: 0.732011 seconds
+Processing frame 14/393: NetC and NetT working... 
+Processing frame 14/393: 0.740849 seconds
+Processing frame 15/393: NetC and NetT working... 
+Processing frame 15/393: 0.743996 seconds
+{Operation terminated by user during <a href="matlab:helpUtils.errorDocCallback('distcomp.remoteparfor/getCompleteIntervals', 'C:\Program Files\MATLAB\R2014a\toolbox\distcomp\distcomp\+distcomp\remoteparfor.m', 119)" style="font-weight:bold">distcomp.remoteparfor/getCompleteIntervals</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2014a\toolbox\distcomp\distcomp\+distcomp\remoteparfor.m',119,0)">line 119</a>)
+
+
+In <a href="matlab:helpUtils.errorDocCallback('parallel_function>distributed_execution', 'C:\Program Files\MATLAB\R2014a\toolbox\matlab\lang\parallel_function.m', 820)" style="font-weight:bold">parallel_function>distributed_execution</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2014a\toolbox\matlab\lang\parallel_function.m',820,0)">line 820</a>)
+        [tags, out] = P.getCompleteIntervals(chunkSize);
+
+In <a href="matlab:helpUtils.errorDocCallback('parallel_function', 'C:\Program Files\MATLAB\R2014a\toolbox\matlab\lang\parallel_function.m', 587)" style="font-weight:bold">parallel_function</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2014a\toolbox\matlab\lang\parallel_function.m',587,0)">line 587</a>)
+        R = distributed_execution(...
+
+In <a href="matlab:helpUtils.errorDocCallback('ST_extract_regions', 'C:\Users\JINGJING\Desktop\ST\SemanticTracking\tracking\ST_extract_regions.m', 17)" style="font-weight:bold">ST_extract_regions</a> (<a href="matlab: opentoline('C:\Users\JINGJING\Desktop\ST\SemanticTracking\tracking\ST_extract_regions.m',17,0)">line 17</a>)
+parfor i = 1:num_boxes
+
+In <a href="matlab:helpUtils.errorDocCallback('ST_classify_net', 'C:\Users\JINGJING\Desktop\ST\SemanticTracking\tracking\ST_classify_net.m', 17)" style="font-weight:bold">ST_classify_net</a> (<a href="matlab: opentoline('C:\Users\JINGJING\Desktop\ST\SemanticTracking\tracking\ST_classify_net.m',17,0)">line 17</a>)
+    imgs = ST_extract_regions(img, boxes, opts);
+
+In <a href="matlab:helpUtils.errorDocCallback('ST_run', 'C:\Users\JINGJING\Desktop\ST\SemanticTracking\tracking\ST_run.m', 108)" style="font-weight:bold">ST_run</a> (<a href="matlab: opentoline('C:\Users\JINGJING\Desktop\ST\SemanticTracking\tracking\ST_run.m',108,0)">line 108</a>)
+        [NetS_feat, sample_class] = ST_classify_net(img, samples, NetS, NetC, opts);
+
+In <a href="matlab:helpUtils.errorDocCallback('demo_STinOTB', 'C:\Users\JINGJING\Desktop\ST\SemanticTracking\demo_STinOTB.m', 12)" style="font-weight:bold">demo_STinOTB</a> (<a href="matlab: opentoline('C:\Users\JINGJING\Desktop\ST\SemanticTracking\demo_STinOTB.m',12,0)">line 12</a>)
+results = ST_run(seq.s_frames, seq.init_rect, net);
+
+In <a href="matlab:helpUtils.errorDocCallback('main_running', 'C:\Users\JINGJING\Desktop\ST\tracker_benchmark_v1.0\main_running.m', 143)" style="font-weight:bold">main_running</a> (<a href="matlab: opentoline('C:\Users\JINGJING\Desktop\ST\tracker_benchmark_v1.0\main_running.m',143,0)">line 143</a>)
+                eval(funcName);
+} 
+main_running
+{Undefined function or variable "endSegIdx".
+
+Error in <a href="matlab:helpUtils.errorDocCallback('splitSeqTRE', 'C:\Users\JINGJING\Desktop\ST\tracker_benchmark_v1.0\util\splitSeqTRE.m', 37)" style="font-weight:bold">splitSeqTRE</a> (<a href="matlab: opentoline('C:\Users\JINGJING\Desktop\ST\tracker_benchmark_v1.0\util\splitSeqTRE.m',37,0)">line 37</a>)
+startFrIdxOne = [floor(1:endSegIdx/(segNum-1):endSegIdx) endSegIdx] ;
+
+Error in <a href="matlab:helpUtils.errorDocCallback('main_running', 'C:\Users\JINGJING\Desktop\ST\tracker_benchmark_v1.0\main_running.m', 63)" style="font-weight:bold">main_running</a> (<a href="matlab: opentoline('C:\Users\JINGJING\Desktop\ST\tracker_benchmark_v1.0\main_running.m',63,0)">line 63</a>)
+    [subSeqs, subAnno]=splitSeqTRE(s,numSeg,rect_anno);
+} 
+{The client lost connection to worker 1. This might be due to network problems, or the interactive communicating job might have errored.
+} 
+main_running
+{Cannot find an exact (case-sensitive) match for 'subS'
+
+The closest match is: subs in C:\Program Files\MATLAB\R2014a\toolbox\symbolic\symbolic\subs.m
+
+
+Error in <a href="matlab:helpUtils.errorDocCallback('main_running', 'C:\Users\JINGJING\Desktop\ST\tracker_benchmark_v1.0\main_running.m', 83)" style="font-weight:bold">main_running</a> (<a href="matlab: opentoline('C:\Users\JINGJING\Desktop\ST\tracker_benchmark_v1.0\main_running.m',83,0)">line 83</a>)
+            subSeqs{1} = subS;
+} 
+main_running
+1_SemanticTracking, 1_carDark: 1/1
+if system_dependent('IsDebugMode')==1, dbstep; end
+Loading images and models...
+if system_dependent('IsDebugMode')==1, dbquit; end
+main_running
+1_SemanticTracking, 1_carDark: 1/1
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+Loading images and models...
+if system_dependent('IsDebugMode')==1, dbquit; end
+main_running
+1_SemanticTracking, 1_carDark: 1/1
+if system_dependent('IsDebugMode')==1, dbstep; end
+Loading images and models...
+if system_dependent('IsDebugMode')==1, dbquit; end
+main_running
+1_SemanticTracking, 1_carDark: 1/1
+if system_dependent('IsDebugMode')==1, dbstep; end
+Loading images and models...
+{Error using <a href="matlab:helpUtils.errorDocCallback('rectangle')" style="font-weight:bold">rectangle</a>
+Width and height must be > 0
+
+Error in <a href="matlab:helpUtils.errorDocCallback('ST_run', 'C:\Users\JINGJING\Desktop\ST\SemanticTracking\tracking\ST_run.m', 33)" style="font-weight:bold">ST_run</a> (<a href="matlab: opentoline('C:\Users\JINGJING\Desktop\ST\SemanticTracking\tracking\ST_run.m',33,0)">line 33</a>)
+    rectangle('Position', targetLoc, 'EdgeColor', [1 0 0], 'Linewidth', 3);
+
+Error in <a href="matlab:helpUtils.errorDocCallback('demo_STinOTB', 'C:\Users\JINGJING\Desktop\ST\SemanticTracking\demo_STinOTB.m', 12)" style="font-weight:bold">demo_STinOTB</a> (<a href="matlab: opentoline('C:\Users\JINGJING\Desktop\ST\SemanticTracking\demo_STinOTB.m',12,0)">line 12</a>)
+results = ST_run(seq.s_frames, seq.init_rect, net);
+
+Error in <a href="matlab:helpUtils.errorDocCallback('main_running', 'C:\Users\JINGJING\Desktop\ST\tracker_benchmark_v1.0\main_running.m', 137)" style="font-weight:bold">main_running</a> (<a href="matlab: opentoline('C:\Users\JINGJING\Desktop\ST\tracker_benchmark_v1.0\main_running.m',137,0)">line 137</a>)
+                res=demo_STinOTB(subS, net);
+} 
+main_running
+1_SemanticTracking, 1_carDark: 1/1
+main_running
+1_SemanticTracking, 1_carDark: 1/1
+if system_dependent('IsDebugMode')==1, dbstep; end
+Loading images and models...
+Initializing scale estimator...
+Starting parallel pool (parpool) using the 'local' profile ... connected to 1 workers.
+Initializing NetC...
+Initializing NetT...
+Processing frame 2/2: NetC and NetT working... 
+Processing frame 2/2: NetC and NetT adaptation 1 time(s)... 
+Processing frame 2/2: NetC and NetT adaptation 2 time(s)... 
+Processing frame 2/2: 7.249395 seconds
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+{Reference to non-existent field 'annoBegin'.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('main_running', 'C:\Users\JINGJING\Desktop\ST\tracker_benchmark_v1.0\main_running.m', 160)" style="font-weight:bold">main_running</a> (<a href="matlab: opentoline('C:\Users\JINGJING\Desktop\ST\tracker_benchmark_v1.0\main_running.m',160,0)">line 160</a>)
+            res.annoBegin = subS.annoBegin;
+} 
+main_running
+1_SemanticTracking, 1_soccer: 1/1
+if system_dependent('IsDebugMode')==1, dbstep; end
+Loading images and models...
+Initializing scale estimator...
+Initializing NetC...
+Initializing NetT...
+Processing frame 2/392: NetC and NetT working... 
+Processing frame 2/392: 0.858913 seconds
+Processing frame 3/392: NetC and NetT working... 
+Processing frame 3/392: 0.854307 seconds
+Processing frame 4/392: NetC and NetT working... 
+Processing frame 4/392: 0.976984 seconds
+Processing frame 5/392: NetC and NetT working... 
+Processing frame 5/392: 0.839909 seconds
+Processing frame 6/392: NetC and NetT working... 
+Processing frame 6/392: 0.839680 seconds
+{Operation terminated by user during <a href="matlab:helpUtils.errorDocCallback('vl_simplenn', 'C:\Users\JINGJING\Desktop\ST\SemanticTracking\matconvnet\matlab\vl_simplenn.m', 153)" style="font-weight:bold">vl_simplenn</a> (<a href="matlab: opentoline('C:\Users\JINGJING\Desktop\ST\SemanticTracking\matconvnet\matlab\vl_simplenn.m',153,0)">line 153</a>)
+
+
+In <a href="matlab:helpUtils.errorDocCallback('ST_classify_net', 'C:\Users\JINGJING\Desktop\ST\SemanticTracking\tracking\ST_classify_net.m', 30)" style="font-weight:bold">ST_classify_net</a> (<a href="matlab: opentoline('C:\Users\JINGJING\Desktop\ST\SemanticTracking\tracking\ST_classify_net.m',30,0)">line 30</a>)
+    res_s = vl_simplenn(NetS, batch, [], [], ...
+
+In <a href="matlab:helpUtils.errorDocCallback('ST_run', 'C:\Users\JINGJING\Desktop\ST\SemanticTracking\tracking\ST_run.m', 108)" style="font-weight:bold">ST_run</a> (<a href="matlab: opentoline('C:\Users\JINGJING\Desktop\ST\SemanticTracking\tracking\ST_run.m',108,0)">line 108</a>)
+        [NetS_feat, sample_class] = ST_classify_net(img, samples, NetS, NetC, opts);
+
+In <a href="matlab:helpUtils.errorDocCallback('demo_STinOTB', 'C:\Users\JINGJING\Desktop\ST\SemanticTracking\demo_STinOTB.m', 12)" style="font-weight:bold">demo_STinOTB</a> (<a href="matlab: opentoline('C:\Users\JINGJING\Desktop\ST\SemanticTracking\demo_STinOTB.m',12,0)">line 12</a>)
+results = ST_run(seq.s_frames, seq.init_rect, net);
+
+In <a href="matlab:helpUtils.errorDocCallback('main_running', 'C:\Users\JINGJING\Desktop\ST\tracker_benchmark_v1.0\main_running.m', 140)" style="font-weight:bold">main_running</a> (<a href="matlab: opentoline('C:\Users\JINGJING\Desktop\ST\tracker_benchmark_v1.0\main_running.m',140,0)">line 140</a>)
+                res=demo_STinOTB(subS, net);
+} 
+{The client lost connection to worker 1. This might be due to network problems, or the interactive communicating job might have errored.
+} 
+main_running
+1_SemanticTracking, 1_carDark: 1/1
+if system_dependent('IsDebugMode')==1, dbstep; end
+Loading images and models...
+Initializing scale estimator...
+Starting parallel pool (parpool) using the 'local' profile ... connected to 1 workers.
+Initializing NetC...
+Initializing NetT...
+Processing frame 2/2: NetC and NetT working... 
+Processing frame 2/2: NetC and NetT adaptation 1 time(s)... 
+Processing frame 2/2: 3.898658 seconds
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+4/27 19:39:42
+if system_dependent('IsDebugMode')==1, dbstep; end
+{The client lost connection to worker 1. This might be due to network problems, or the interactive communicating job might have errored.
+} 
+main_running
+Starting parallel pool (parpool) using the 'local' profile ... connected to 1 workers.
+{Error using <a href="matlab:helpUtils.errorDocCallback('cd')" style="font-weight:bold">cd</a>
+Cannot CD to matconvnet\matlab (Name is nonexistent or not a directory).
+
+Error in <a href="matlab:helpUtils.errorDocCallback('run', 'C:\Program Files\MATLAB\R2014a\toolbox\matlab\lang\run.m', 41)" style="font-weight:bold">run</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2014a\toolbox\matlab\lang\run.m',41,0)">line 41</a>)
+   cd(fileDir);
+
+Error in <a href="matlab:helpUtils.errorDocCallback('setup_ST', 'C:\Users\JINGJING\Desktop\ST\SemanticTracking\setup_ST.m', 12)" style="font-weight:bold">setup_ST</a> (<a href="matlab: opentoline('C:\Users\JINGJING\Desktop\ST\SemanticTracking\setup_ST.m',12,0)">line 12</a>)
+run matconvnet/matlab/vl_setupnn ;
+
+Error in <a href="matlab:helpUtils.errorDocCallback('main_running', 'C:\Users\JINGJING\Desktop\ST\tracker_benchmark_v1.0\main_running.m', 9)" style="font-weight:bold">main_running</a> (<a href="matlab: opentoline('C:\Users\JINGJING\Desktop\ST\tracker_benchmark_v1.0\main_running.m',9,0)">line 9</a>)
+setup_ST
+} 
+{The client lost connection to worker 1. This might be due to network problems, or the interactive communicating job might have errored.
+} 
+perfPlot
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+{Error using <a href="matlab:helpUtils.errorDocCallback('load')" style="font-weight:bold">load</a>
+Unable to read file '.\results\results_TRE_CVPR13\carDark_SemanticTracking.mat': no such file or directory.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('genPerfMat', 'C:\Users\JINGJING\Desktop\ST\tracker_benchmark_v1.0\genPerfMat.m', 38)" style="font-weight:bold">genPerfMat</a> (<a href="matlab: opentoline('C:\Users\JINGJING\Desktop\ST\tracker_benchmark_v1.0\genPerfMat.m',38,0)">line 38</a>)
+        load([rpAll s.name '_' t.name '.mat'])
+
+Error in <a href="matlab:helpUtils.errorDocCallback('perfPlot', 'C:\Users\JINGJING\Desktop\ST\tracker_benchmark_v1.0\perfPlot.m', 158)" style="font-weight:bold">perfPlot</a> (<a href="matlab: opentoline('C:\Users\JINGJING\Desktop\ST\tracker_benchmark_v1.0\perfPlot.m',158,0)">line 158</a>)
+            genPerfMat(seqs, trackers, evalType, nameTrkAll, perfMatPath);
+} 
+perfPlot
+if system_dependent('IsDebugMode')==1, dbquit; end
+perfPlot
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+{Error using <a href="matlab:helpUtils.errorDocCallback('load')" style="font-weight:bold">load</a>
+Unable to read file '.\results\results_TRE_CVPR13\carDark_SemanticTracking.mat': no such file or directory.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('genPerfMat', 'C:\Users\JINGJING\Desktop\ST\tracker_benchmark_v1.0\genPerfMat.m', 38)" style="font-weight:bold">genPerfMat</a> (<a href="matlab: opentoline('C:\Users\JINGJING\Desktop\ST\tracker_benchmark_v1.0\genPerfMat.m',38,0)">line 38</a>)
+        load([rpAll s.name '_' t.name '.mat'])
+
+Error in <a href="matlab:helpUtils.errorDocCallback('perfPlot', 'C:\Users\JINGJING\Desktop\ST\tracker_benchmark_v1.0\perfPlot.m', 158)" style="font-weight:bold">perfPlot</a> (<a href="matlab: opentoline('C:\Users\JINGJING\Desktop\ST\tracker_benchmark_v1.0\perfPlot.m',158,0)">line 158</a>)
+            genPerfMat(seqs, trackers, evalType, nameTrkAll, perfMatPath);
+} 
+perfPlot
+if system_dependent('IsDebugMode')==1, dbcont; end
+carDark MUSTer
+carDark STC
+carDark HCF
+carDark DLT
+carDark LCT
+carDark DSST
+carDark MEEM
+carDark TGPR
+carDark KCF
+{In an assignment  A(I) = B, the number of elements in B and I must be the same.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('plotDrawSave', 'C:\Users\JINGJING\Desktop\ST\tracker_benchmark_v1.0\util\plotDrawSave.m', 49)" style="font-weight:bold">plotDrawSave</a> (<a href="matlab: opentoline('C:\Users\JINGJING\Desktop\ST\tracker_benchmark_v1.0\util\plotDrawSave.m',49,0)">line 49</a>)
+    h(i) = plot(thresholdSet,bb,'color',plotDrawStyle{i}.color, 'lineStyle', plotDrawStyle{i}.lineStyle,'lineWidth', 4,'Parent',axes1);
+
+Error in <a href="matlab:helpUtils.errorDocCallback('perfPlot', 'C:\Users\JINGJING\Desktop\ST\tracker_benchmark_v1.0\perfPlot.m', 172)" style="font-weight:bold">perfPlot</a> (<a href="matlab: opentoline('C:\Users\JINGJING\Desktop\ST\tracker_benchmark_v1.0\perfPlot.m',172,0)">line 172</a>)
+        plotDrawSave(numTrk,plotDrawStyle,aveSuccessRatePlot,idxSeqSet,rankNum,rankingType,rankIdx,nameTrkAll,thresholdSet,titleName,
+        xLabelName,yLabelName,figName,metricType);
+} 
+perfPlot
+{Index exceeds matrix dimensions.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('plotDrawSave', 'C:\Users\JINGJING\Desktop\ST\tracker_benchmark_v1.0\util\plotDrawSave.m', 9)" style="font-weight:bold">plotDrawSave</a> (<a href="matlab: opentoline('C:\Users\JINGJING\Desktop\ST\tracker_benchmark_v1.0\util\plotDrawSave.m',9,0)">line 9</a>)
+    tmp=aveSuccessRatePlot(idxTrk, idxSeqSet,:);
+
+Error in <a href="matlab:helpUtils.errorDocCallback('perfPlot', 'C:\Users\JINGJING\Desktop\ST\tracker_benchmark_v1.0\perfPlot.m', 172)" style="font-weight:bold">perfPlot</a> (<a href="matlab: opentoline('C:\Users\JINGJING\Desktop\ST\tracker_benchmark_v1.0\perfPlot.m',172,0)">line 172</a>)
+        plotDrawSave(numTrk,plotDrawStyle,aveSuccessRatePlot,idxSeqSet,rankNum,rankingType,rankIdx,nameTrkAll,thresholdSet,titleName,
+        xLabelName,yLabelName,figName,metricType);
+} 
+perfPlot
+carDark MUSTer
+carDark STC
+carDark HCF
+carDark DLT
+carDark LCT
+carDark DSST
+carDark MEEM
+carDark TGPR
+carDark KCF
+car4 MUSTer
+car4 STC
+car4 HCF
+car4 DLT
+car4 LCT
+car4 DSST
+car4 MEEM
+car4 TGPR
+car4 KCF
+david MUSTer
+david STC
+david HCF
+david DLT
+david LCT
+david DSST
+david MEEM
+david TGPR
+david KCF
+david2 MUSTer
+david2 STC
+david2 HCF
+david2 DLT
+david2 LCT
+david2 DSST
+david2 MEEM
+david2 TGPR
+david2 KCF
+sylvester MUSTer
+sylvester STC
+sylvester HCF
+sylvester DLT
+sylvester LCT
+sylvester DSST
+sylvester MEEM
+sylvester TGPR
+sylvester KCF
+trellis MUSTer
+trellis STC
+trellis HCF
+trellis DLT
+trellis LCT
+trellis DSST
+trellis MEEM
+trellis TGPR
+trellis KCF
+fish MUSTer
+fish STC
+fish HCF
+fish DLT
+fish LCT
+fish DSST
+fish MEEM
+fish TGPR
+fish KCF
+mhyang MUSTer
+mhyang STC
+mhyang HCF
+mhyang DLT
+mhyang LCT
+mhyang DSST
+mhyang MEEM
+mhyang TGPR
+mhyang KCF
+illumination variation 6
+out-of-plane rotation 5
+scale variation 3
+deformation 2
+in-plane rotation 4
+background clutter 3
+perfPlot
+carDark MUSTer
+carDark STC
+carDark HCF
+carDark DLT
+carDark LCT
+carDark DSST
+carDark MEEM
+carDark TGPR
+carDark KCF
+car4 MUSTer
+car4 STC
+car4 HCF
+car4 DLT
+car4 LCT
+car4 DSST
+car4 MEEM
+car4 TGPR
+car4 KCF
+david MUSTer
+david STC
+david HCF
+david DLT
+david LCT
+david DSST
+david MEEM
+david TGPR
+david KCF
+david2 MUSTer
+david2 STC
+david2 HCF
+david2 DLT
+david2 LCT
+david2 DSST
+david2 MEEM
+david2 TGPR
+david2 KCF
+sylvester MUSTer
+sylvester STC
+sylvester HCF
+sylvester DLT
+sylvester LCT
+sylvester DSST
+sylvester MEEM
+sylvester TGPR
+sylvester KCF
+trellis MUSTer
+trellis STC
+trellis HCF
+trellis DLT
+trellis LCT
+trellis DSST
+trellis MEEM
+trellis TGPR
+trellis KCF
+fish MUSTer
+fish STC
+fish HCF
+fish DLT
+fish LCT
+fish DSST
+fish MEEM
+fish TGPR
+fish KCF
+mhyang MUSTer
+mhyang STC
+mhyang HCF
+mhyang DLT
+mhyang LCT
+mhyang DSST
+mhyang MEEM
+mhyang TGPR
+mhyang KCF
+illumination variation 6
+out-of-plane rotation 5
+scale variation 3
+deformation 2
+in-plane rotation 4
+background clutter 3
+perfPlot
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+carDark MUSTer
+carDark STC
+carDark HCF
+carDark DLT
+carDark LCT
+carDark DSST
+carDark MEEM
+carDark TGPR
+carDark KCF
+car4 MUSTer
+car4 STC
+car4 HCF
+car4 DLT
+car4 LCT
+car4 DSST
+car4 MEEM
+car4 TGPR
+car4 KCF
+david MUSTer
+david STC
+david HCF
+david DLT
+david LCT
+david DSST
+david MEEM
+david TGPR
+david KCF
+david2 MUSTer
+david2 STC
+david2 HCF
+david2 DLT
+david2 LCT
+david2 DSST
+david2 MEEM
+david2 TGPR
+david2 KCF
+sylvester MUSTer
+sylvester STC
+sylvester HCF
+sylvester DLT
+sylvester LCT
+sylvester DSST
+sylvester MEEM
+sylvester TGPR
+sylvester KCF
+trellis MUSTer
+trellis STC
+trellis HCF
+trellis DLT
+trellis LCT
+trellis DSST
+trellis MEEM
+trellis TGPR
+trellis KCF
+fish MUSTer
+fish STC
+fish HCF
+fish DLT
+fish LCT
+fish DSST
+fish MEEM
+fish TGPR
+fish KCF
+mhyang MUSTer
+mhyang STC
+mhyang HCF
+mhyang DLT
+mhyang LCT
+mhyang DSST
+mhyang MEEM
+mhyang TGPR
+mhyang KCF
+soccer MUSTer
+soccer STC
+soccer HCF
+soccer DLT
+soccer LCT
+soccer DSST
+soccer MEEM
+soccer TGPR
+soccer KCF
+matrix MUSTer
+matrix STC
+matrix HCF
+matrix DLT
+matrix LCT
+matrix DSST
+matrix MEEM
+matrix TGPR
+matrix KCF
+ironman MUSTer
+ironman STC
+ironman HCF
+ironman DLT
+ironman LCT
+ironman DSST
+ironman MEEM
+ironman TGPR
+ironman KCF
+deer MUSTer
+deer STC
+deer HCF
+deer DLT
+deer LCT
+deer DSST
+deer MEEM
+deer TGPR
+deer KCF
+skating1 MUSTer
+skating1 STC
+skating1 HCF
+skating1 DLT
+skating1 LCT
+skating1 DSST
+skating1 MEEM
+skating1 TGPR
+skating1 KCF
+shaking MUSTer
+shaking STC
+shaking HCF
+shaking DLT
+shaking LCT
+shaking DSST
+shaking MEEM
+shaking TGPR
+shaking KCF
+singer1 MUSTer
+singer1 STC
+singer1 HCF
+singer1 DLT
+singer1 LCT
+singer1 DSST
+singer1 MEEM
+singer1 TGPR
+singer1 KCF
+singer2 MUSTer
+singer2 STC
+singer2 HCF
+singer2 DLT
+singer2 LCT
+singer2 DSST
+singer2 MEEM
+singer2 TGPR
+singer2 KCF
+coke MUSTer
+coke STC
+coke HCF
+coke DLT
+coke LCT
+coke DSST
+coke MEEM
+coke TGPR
+coke KCF
+bolt MUSTer
+bolt STC
+bolt HCF
+bolt DLT
+bolt LCT
+bolt DSST
+bolt MEEM
+bolt TGPR
+bolt KCF
+boy MUSTer
+boy STC
+boy HCF
+boy DLT
+boy LCT
+boy DSST
+boy MEEM
+boy TGPR
+boy KCF
+dudek MUSTer
+dudek STC
+dudek HCF
+dudek DLT
+dudek LCT
+dudek DSST
+dudek MEEM
+dudek TGPR
+dudek KCF
+crossing MUSTer
+crossing STC
+crossing HCF
+crossing DLT
+crossing LCT
+crossing DSST
+crossing MEEM
+crossing TGPR
+crossing KCF
+couple MUSTer
+couple STC
+couple HCF
+couple DLT
+couple LCT
+couple DSST
+couple MEEM
+couple TGPR
+couple KCF
+football1 MUSTer
+football1 STC
+football1 HCF
+football1 DLT
+football1 LCT
+football1 DSST
+football1 MEEM
+football1 TGPR
+football1 KCF
+jogging-1 MUSTer
+jogging-1 STC
+jogging-1 HCF
+jogging-1 DLT
+jogging-1 LCT
+jogging-1 DSST
+jogging-1 MEEM
+jogging-1 TGPR
+jogging-1 KCF
+jogging-2 MUSTer
+jogging-2 STC
+jogging-2 HCF
+jogging-2 DLT
+jogging-2 LCT
+jogging-2 DSST
+jogging-2 MEEM
+jogging-2 TGPR
+jogging-2 KCF
+doll MUSTer
+doll STC
+doll HCF
+doll DLT
+doll LCT
+doll DSST
+doll MEEM
+doll TGPR
+doll KCF
+girl MUSTer
+girl STC
+girl HCF
+girl DLT
+girl LCT
+girl DSST
+girl MEEM
+girl TGPR
+girl KCF
+walking2 MUSTer
+walking2 STC
+walking2 HCF
+walking2 DLT
+walking2 LCT
+walking2 DSST
+walking2 MEEM
+walking2 TGPR
+walking2 KCF
+walking MUSTer
+walking STC
+walking HCF
+walking DLT
+walking LCT
+walking DSST
+walking MEEM
+walking TGPR
+walking KCF
+fleetface MUSTer
+fleetface STC
+fleetface HCF
+fleetface DLT
+fleetface LCT
+fleetface DSST
+fleetface MEEM
+fleetface TGPR
+fleetface KCF
+freeman1 MUSTer
+freeman1 STC
+freeman1 HCF
+freeman1 DLT
+freeman1 LCT
+freeman1 DSST
+freeman1 MEEM
+freeman1 TGPR
+freeman1 KCF
+freeman3 MUSTer
+freeman3 STC
+freeman3 HCF
+freeman3 DLT
+freeman3 LCT
+freeman3 DSST
+freeman3 MEEM
+freeman3 TGPR
+freeman3 KCF
+freeman4 MUSTer
+freeman4 STC
+freeman4 HCF
+freeman4 DLT
+freeman4 LCT
+freeman4 DSST
+freeman4 MEEM
+freeman4 TGPR
+freeman4 KCF
+david3 MUSTer
+david3 STC
+david3 HCF
+david3 DLT
+david3 LCT
+david3 DSST
+david3 MEEM
+david3 TGPR
+david3 KCF
+jumping MUSTer
+jumping STC
+jumping HCF
+jumping DLT
+jumping LCT
+jumping DSST
+jumping MEEM
+jumping TGPR
+jumping KCF
+carScale MUSTer
+carScale STC
+carScale HCF
+carScale DLT
+carScale LCT
+carScale DSST
+carScale MEEM
+carScale TGPR
+carScale KCF
+skiing MUSTer
+skiing STC
+skiing HCF
+skiing DLT
+skiing LCT
+skiing DSST
+skiing MEEM
+skiing TGPR
+skiing KCF
+dog1 MUSTer
+dog1 STC
+dog1 HCF
+dog1 DLT
+dog1 LCT
+dog1 DSST
+dog1 MEEM
+dog1 TGPR
+dog1 KCF
+suv MUSTer
+suv STC
+suv HCF
+suv DLT
+suv LCT
+suv DSST
+suv MEEM
+suv TGPR
+suv KCF
+motorRolling MUSTer
+motorRolling STC
+motorRolling HCF
+motorRolling DLT
+motorRolling LCT
+motorRolling DSST
+motorRolling MEEM
+motorRolling TGPR
+motorRolling KCF
+mountainBike MUSTer
+mountainBike STC
+mountainBike HCF
+mountainBike DLT
+mountainBike LCT
+mountainBike DSST
+mountainBike MEEM
+mountainBike TGPR
+mountainBike KCF
+lemming MUSTer
+lemming STC
+lemming HCF
+lemming DLT
+lemming LCT
+lemming DSST
+lemming MEEM
+lemming TGPR
+lemming KCF
+liquor MUSTer
+liquor STC
+liquor HCF
+liquor DLT
+liquor LCT
+liquor DSST
+liquor MEEM
+liquor TGPR
+liquor KCF
+woman MUSTer
+woman STC
+woman HCF
+woman DLT
+woman LCT
+woman DSST
+woman MEEM
+woman TGPR
+woman KCF
+faceocc1 MUSTer
+faceocc1 STC
+faceocc1 HCF
+faceocc1 DLT
+faceocc1 LCT
+faceocc1 DSST
+faceocc1 MEEM
+faceocc1 TGPR
+faceocc1 KCF
+faceocc2 MUSTer
+faceocc2 STC
+faceocc2 HCF
+faceocc2 DLT
+faceocc2 LCT
+faceocc2 DSST
+faceocc2 MEEM
+faceocc2 TGPR
+faceocc2 KCF
+basketball MUSTer
+basketball STC
+basketball HCF
+basketball DLT
+basketball LCT
+basketball DSST
+basketball MEEM
+basketball TGPR
+basketball KCF
+football MUSTer
+football STC
+football HCF
+football DLT
+football LCT
+football DSST
+football MEEM
+football TGPR
+football KCF
+subway MUSTer
+subway STC
+subway HCF
+subway DLT
+subway LCT
+subway DSST
+subway MEEM
+subway TGPR
+subway KCF
+tiger1 MUSTer
+tiger1 STC
+tiger1 HCF
+tiger1 DLT
+tiger1 LCT
+tiger1 DSST
+tiger1 MEEM
+tiger1 TGPR
+tiger1 KCF
+tiger2 MUSTer
+tiger2 STC
+tiger2 HCF
+tiger2 DLT
+tiger2 LCT
+tiger2 DSST
+tiger2 MEEM
+tiger2 TGPR
+tiger2 KCF
+biker MUSTer
+biker STC
+biker HCF
+biker DLT
+biker LCT
+biker DSST
+biker MEEM
+biker TGPR
+biker KCF
+bird1 MUSTer
+bird1 STC
+bird1 HCF
+bird1 DLT
+bird1 LCT
+bird1 DSST
+bird1 MEEM
+bird1 TGPR
+bird1 KCF
+bird2 MUSTer
+bird2 STC
+bird2 HCF
+bird2 DLT
+bird2 LCT
+bird2 DSST
+bird2 MEEM
+bird2 TGPR
+bird2 KCF
+{Operation terminated by user during <a href="matlab:helpUtils.errorDocCallback('strcat', 'C:\Program Files\MATLAB\R2014a\toolbox\matlab\strfun\strcat.m', 82)" style="font-weight:bold">strcat</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2014a\toolbox\matlab\strfun\strcat.m',82,0)">line 82</a>)
+
+
+In <a href="matlab:helpUtils.errorDocCallback('genPerfMat', 'C:\Users\JINGJING\Desktop\ST\tracker_benchmark_v1.0\genPerfMat.m', 25)" style="font-weight:bold">genPerfMat</a> (<a href="matlab: opentoline('C:\Users\JINGJING\Desktop\ST\tracker_benchmark_v1.0\genPerfMat.m',25,0)">line 25</a>)
+        s.s_frames{i} = strcat(s.path,id,'.',s.ext);
+
+In <a href="matlab:helpUtils.errorDocCallback('perfPlot', 'C:\Users\JINGJING\Desktop\ST\tracker_benchmark_v1.0\perfPlot.m', 158)" style="font-weight:bold">perfPlot</a> (<a href="matlab: opentoline('C:\Users\JINGJING\Desktop\ST\tracker_benchmark_v1.0\perfPlot.m',158,0)">line 158</a>)
+            genPerfMat(seqs, trackers, evalType, nameTrkAll, perfMatPath);
+} 
+perfPlot
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+carDark MUSTer
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbquit; end
+perfPlot
+if system_dependent('IsDebugMode')==1, dbcont; end
+carDark MUSTer
+carDark STC
+carDark HCF
+carDark DLT
+carDark LCT
+carDark DSST
+carDark MEEM
+carDark TGPR
+carDark KCF
+car4 MUSTer
+car4 STC
+car4 HCF
+car4 DLT
+car4 LCT
+car4 DSST
+car4 MEEM
+car4 TGPR
+car4 KCF
+david MUSTer
+david STC
+david HCF
+david DLT
+david LCT
+david DSST
+david MEEM
+david TGPR
+david KCF
+david2 MUSTer
+david2 STC
+david2 HCF
+david2 DLT
+david2 LCT
+david2 DSST
+david2 MEEM
+david2 TGPR
+david2 KCF
+sylvester MUSTer
+sylvester STC
+sylvester HCF
+sylvester DLT
+sylvester LCT
+sylvester DSST
+sylvester MEEM
+sylvester TGPR
+sylvester KCF
+trellis MUSTer
+trellis STC
+trellis HCF
+trellis DLT
+trellis LCT
+trellis DSST
+trellis MEEM
+trellis TGPR
+trellis KCF
+fish MUSTer
+fish STC
+fish HCF
+fish DLT
+fish LCT
+fish DSST
+fish MEEM
+fish TGPR
+fish KCF
+mhyang MUSTer
+mhyang STC
+mhyang HCF
+mhyang DLT
+mhyang LCT
+mhyang DSST
+mhyang MEEM
+mhyang TGPR
+mhyang KCF
+soccer MUSTer
+soccer STC
+soccer HCF
+soccer DLT
+soccer LCT
+soccer DSST
+soccer MEEM
+soccer TGPR
+soccer KCF
+matrix MUSTer
+matrix STC
+matrix HCF
+matrix DLT
+matrix LCT
+matrix DSST
+matrix MEEM
+matrix TGPR
+matrix KCF
+ironman MUSTer
+ironman STC
+ironman HCF
+ironman DLT
+ironman LCT
+ironman DSST
+ironman MEEM
+ironman TGPR
+ironman KCF
+deer MUSTer
+deer STC
+deer HCF
+deer DLT
+deer LCT
+deer DSST
+deer MEEM
+deer TGPR
+deer KCF
+skating1 MUSTer
+skating1 STC
+skating1 HCF
+skating1 DLT
+skating1 LCT
+skating1 DSST
+skating1 MEEM
+skating1 TGPR
+skating1 KCF
+shaking MUSTer
+shaking STC
+shaking HCF
+shaking DLT
+shaking LCT
+shaking DSST
+shaking MEEM
+shaking TGPR
+shaking KCF
+singer1 MUSTer
+singer1 STC
+singer1 HCF
+singer1 DLT
+singer1 LCT
+singer1 DSST
+singer1 MEEM
+singer1 TGPR
+singer1 KCF
+singer2 MUSTer
+singer2 STC
+singer2 HCF
+singer2 DLT
+singer2 LCT
+singer2 DSST
+singer2 MEEM
+singer2 TGPR
+singer2 KCF
+coke MUSTer
+coke STC
+coke HCF
+coke DLT
+coke LCT
+coke DSST
+coke MEEM
+coke TGPR
+coke KCF
+bolt MUSTer
+bolt STC
+bolt HCF
+bolt DLT
+bolt LCT
+bolt DSST
+bolt MEEM
+bolt TGPR
+bolt KCF
+boy MUSTer
+boy STC
+boy HCF
+boy DLT
+boy LCT
+boy DSST
+boy MEEM
+boy TGPR
+boy KCF
+dudek MUSTer
+dudek STC
+dudek HCF
+dudek DLT
+dudek LCT
+dudek DSST
+dudek MEEM
+dudek TGPR
+dudek KCF
+crossing MUSTer
+crossing STC
+crossing HCF
+crossing DLT
+crossing LCT
+crossing DSST
+crossing MEEM
+crossing TGPR
+crossing KCF
+couple MUSTer
+couple STC
+couple HCF
+couple DLT
+couple LCT
+couple DSST
+couple MEEM
+couple TGPR
+couple KCF
+football1 MUSTer
+football1 STC
+football1 HCF
+football1 DLT
+football1 LCT
+football1 DSST
+football1 MEEM
+football1 TGPR
+football1 KCF
+jogging-1 MUSTer
+jogging-1 STC
+jogging-1 HCF
+jogging-1 DLT
+jogging-1 LCT
+jogging-1 DSST
+jogging-1 MEEM
+jogging-1 TGPR
+jogging-1 KCF
+jogging-2 MUSTer
+jogging-2 STC
+jogging-2 HCF
+jogging-2 DLT
+jogging-2 LCT
+jogging-2 DSST
+jogging-2 MEEM
+jogging-2 TGPR
+jogging-2 KCF
+doll MUSTer
+doll STC
+doll HCF
+doll DLT
+doll LCT
+doll DSST
+doll MEEM
+doll TGPR
+doll KCF
+girl MUSTer
+girl STC
+girl HCF
+girl DLT
+girl LCT
+girl DSST
+girl MEEM
+girl TGPR
+girl KCF
+walking2 MUSTer
+walking2 STC
+walking2 HCF
+walking2 DLT
+walking2 LCT
+walking2 DSST
+walking2 MEEM
+walking2 TGPR
+walking2 KCF
+walking MUSTer
+walking STC
+walking HCF
+walking DLT
+walking LCT
+walking DSST
+walking MEEM
+walking TGPR
+walking KCF
+fleetface MUSTer
+fleetface STC
+fleetface HCF
+fleetface DLT
+fleetface LCT
+fleetface DSST
+fleetface MEEM
+fleetface TGPR
+fleetface KCF
+freeman1 MUSTer
+freeman1 STC
+freeman1 HCF
+freeman1 DLT
+freeman1 LCT
+freeman1 DSST
+freeman1 MEEM
+freeman1 TGPR
+freeman1 KCF
+freeman3 MUSTer
+freeman3 STC
+freeman3 HCF
+freeman3 DLT
+freeman3 LCT
+freeman3 DSST
+freeman3 MEEM
+freeman3 TGPR
+freeman3 KCF
+freeman4 MUSTer
+freeman4 STC
+freeman4 HCF
+freeman4 DLT
+freeman4 LCT
+freeman4 DSST
+freeman4 MEEM
+freeman4 TGPR
+freeman4 KCF
+david3 MUSTer
+david3 STC
+david3 HCF
+david3 DLT
+david3 LCT
+david3 DSST
+david3 MEEM
+david3 TGPR
+david3 KCF
+jumping MUSTer
+jumping STC
+jumping HCF
+jumping DLT
+jumping LCT
+jumping DSST
+jumping MEEM
+jumping TGPR
+jumping KCF
+carScale MUSTer
+carScale STC
+carScale HCF
+carScale DLT
+carScale LCT
+carScale DSST
+carScale MEEM
+carScale TGPR
+carScale KCF
+skiing MUSTer
+skiing STC
+skiing HCF
+skiing DLT
+skiing LCT
+skiing DSST
+skiing MEEM
+skiing TGPR
+skiing KCF
+dog1 MUSTer
+dog1 STC
+dog1 HCF
+dog1 DLT
+dog1 LCT
+dog1 DSST
+dog1 MEEM
+dog1 TGPR
+dog1 KCF
+suv MUSTer
+suv STC
+suv HCF
+suv DLT
+suv LCT
+suv DSST
+suv MEEM
+suv TGPR
+suv KCF
+motorRolling MUSTer
+motorRolling STC
+motorRolling HCF
+motorRolling DLT
+motorRolling LCT
+motorRolling DSST
+motorRolling MEEM
+motorRolling TGPR
+motorRolling KCF
+mountainBike MUSTer
+mountainBike STC
+mountainBike HCF
+mountainBike DLT
+mountainBike LCT
+mountainBike DSST
+mountainBike MEEM
+mountainBike TGPR
+mountainBike KCF
+lemming MUSTer
+lemming STC
+lemming HCF
+lemming DLT
+lemming LCT
+lemming DSST
+lemming MEEM
+lemming TGPR
+lemming KCF
+liquor MUSTer
+liquor STC
+liquor HCF
+liquor DLT
+liquor LCT
+liquor DSST
+liquor MEEM
+liquor TGPR
+liquor KCF
+woman MUSTer
+woman STC
+woman HCF
+woman DLT
+woman LCT
+woman DSST
+woman MEEM
+woman TGPR
+woman KCF
+faceocc1 MUSTer
+faceocc1 STC
+faceocc1 HCF
+faceocc1 DLT
+faceocc1 LCT
+faceocc1 DSST
+faceocc1 MEEM
+faceocc1 TGPR
+faceocc1 KCF
+faceocc2 MUSTer
+faceocc2 STC
+faceocc2 HCF
+faceocc2 DLT
+faceocc2 LCT
+faceocc2 DSST
+faceocc2 MEEM
+faceocc2 TGPR
+faceocc2 KCF
+basketball MUSTer
+basketball STC
+basketball HCF
+basketball DLT
+basketball LCT
+basketball DSST
+basketball MEEM
+basketball TGPR
+basketball KCF
+football MUSTer
+football STC
+football HCF
+football DLT
+football LCT
+football DSST
+football MEEM
+football TGPR
+football KCF
+subway MUSTer
+subway STC
+subway HCF
+subway DLT
+subway LCT
+subway DSST
+subway MEEM
+subway TGPR
+subway KCF
+tiger1 MUSTer
+tiger1 STC
+tiger1 HCF
+tiger1 DLT
+tiger1 LCT
+tiger1 DSST
+tiger1 MEEM
+tiger1 TGPR
+tiger1 KCF
+tiger2 MUSTer
+tiger2 STC
+tiger2 HCF
+tiger2 DLT
+tiger2 LCT
+tiger2 DSST
+tiger2 MEEM
+tiger2 TGPR
+tiger2 KCF
+biker MUSTer
+biker STC
+biker HCF
+biker DLT
+biker LCT
+biker DSST
+biker MEEM
+biker TGPR
+biker KCF
+bird1 MUSTer
+bird1 STC
+bird1 HCF
+bird1 DLT
+bird1 LCT
+bird1 DSST
+bird1 MEEM
+bird1 TGPR
+bird1 KCF
+bird2 MUSTer
+bird2 STC
+bird2 HCF
+bird2 DLT
+bird2 LCT
+bird2 DSST
+bird2 MEEM
+bird2 TGPR
+bird2 KCF
+blurBody MUSTer
+blurBody STC
+blurBody HCF
+blurBody DLT
+blurBody LCT
+blurBody DSST
+blurBody MEEM
+blurBody TGPR
+blurBody KCF
+blurCar1 MUSTer
+blurCar1 STC
+blurCar1 HCF
+blurCar1 DLT
+blurCar1 LCT
+blurCar1 DSST
+blurCar1 MEEM
+blurCar1 TGPR
+blurCar1 KCF
+blurCar2 MUSTer
+blurCar2 STC
+blurCar2 HCF
+blurCar2 DLT
+blurCar2 LCT
+blurCar2 DSST
+blurCar2 MEEM
+blurCar2 TGPR
+blurCar2 KCF
+blurCar3 MUSTer
+blurCar3 STC
+blurCar3 HCF
+blurCar3 DLT
+blurCar3 LCT
+blurCar3 DSST
+blurCar3 MEEM
+blurCar3 TGPR
+blurCar3 KCF
+blurCar4 MUSTer
+blurCar4 STC
+blurCar4 HCF
+blurCar4 DLT
+blurCar4 LCT
+blurCar4 DSST
+blurCar4 MEEM
+blurCar4 TGPR
+blurCar4 KCF
+blurFace MUSTer
+blurFace STC
+blurFace HCF
+blurFace DLT
+blurFace LCT
+blurFace DSST
+blurFace MEEM
+blurFace TGPR
+blurFace KCF
+blurOwl MUSTer
+blurOwl STC
+blurOwl HCF
+blurOwl DLT
+blurOwl LCT
+blurOwl DSST
+blurOwl MEEM
+blurOwl TGPR
+blurOwl KCF
+board MUSTer
+board STC
+board HCF
+board DLT
+board LCT
+board DSST
+board MEEM
+board TGPR
+board KCF
+bolt2 MUSTer
+bolt2 STC
+bolt2 HCF
+bolt2 DLT
+bolt2 LCT
+bolt2 DSST
+bolt2 MEEM
+bolt2 TGPR
+bolt2 KCF
+box MUSTer
+box STC
+box HCF
+box DLT
+box LCT
+box DSST
+box MEEM
+box TGPR
+box KCF
+car1 MUSTer
+car1 STC
+car1 HCF
+car1 DLT
+car1 LCT
+car1 DSST
+car1 MEEM
+car1 TGPR
+car1 KCF
+car2 MUSTer
+car2 STC
+car2 HCF
+car2 DLT
+car2 LCT
+car2 DSST
+car2 MEEM
+car2 TGPR
+car2 KCF
+car24 MUSTer
+car24 STC
+car24 HCF
+car24 DLT
+car24 LCT
+car24 DSST
+car24 MEEM
+car24 TGPR
+car24 KCF
+clifBar MUSTer
+clifBar STC
+clifBar HCF
+clifBar DLT
+clifBar LCT
+clifBar DSST
+clifBar MEEM
+clifBar TGPR
+clifBar KCF
+coupon MUSTer
+coupon STC
+coupon HCF
+coupon DLT
+coupon LCT
+coupon DSST
+coupon MEEM
+coupon TGPR
+coupon KCF
+crowds MUSTer
+crowds STC
+crowds HCF
+crowds DLT
+crowds LCT
+crowds DSST
+crowds MEEM
+crowds TGPR
+crowds KCF
+dancer MUSTer
+dancer STC
+dancer HCF
+dancer DLT
+dancer LCT
+dancer DSST
+dancer MEEM
+dancer TGPR
+dancer KCF
+dancer2 MUSTer
+dancer2 STC
+dancer2 HCF
+dancer2 DLT
+dancer2 LCT
+dancer2 DSST
+dancer2 MEEM
+dancer2 TGPR
+dancer2 KCF
+diving MUSTer
+diving STC
+diving HCF
+diving DLT
+diving LCT
+diving DSST
+diving MEEM
+diving TGPR
+diving KCF
+dog MUSTer
+dog STC
+dog HCF
+dog DLT
+dog LCT
+dog DSST
+dog MEEM
+dog TGPR
+dog KCF
+dragonBaby MUSTer
+dragonBaby STC
+dragonBaby HCF
+dragonBaby DLT
+dragonBaby LCT
+dragonBaby DSST
+dragonBaby MEEM
+dragonBaby TGPR
+dragonBaby KCF
+girl2 MUSTer
+girl2 STC
+girl2 HCF
+girl2 DLT
+girl2 LCT
+girl2 DSST
+girl2 MEEM
+girl2 TGPR
+girl2 KCF
+gym MUSTer
+gym STC
+gym HCF
+gym DLT
+gym LCT
+gym DSST
+gym MEEM
+gym TGPR
+gym KCF
+human2 MUSTer
+human2 STC
+human2 HCF
+human2 DLT
+human2 LCT
+human2 DSST
+human2 MEEM
+human2 TGPR
+human2 KCF
+human3 MUSTer
+human3 STC
+human3 HCF
+human3 DLT
+human3 LCT
+human3 DSST
+human3 MEEM
+human3 TGPR
+human3 KCF
+human4 MUSTer
+human4 STC
+human4 HCF
+human4 DLT
+human4 LCT
+human4 DSST
+human4 MEEM
+human4 TGPR
+human4 KCF
+human5 MUSTer
+human5 STC
+human5 HCF
+human5 DLT
+human5 LCT
+human5 DSST
+human5 MEEM
+human5 TGPR
+human5 KCF
+human6 MUSTer
+human6 STC
+human6 HCF
+human6 DLT
+human6 LCT
+human6 DSST
+human6 MEEM
+human6 TGPR
+human6 KCF
+human7 MUSTer
+human7 STC
+human7 HCF
+human7 DLT
+human7 LCT
+human7 DSST
+human7 MEEM
+human7 TGPR
+human7 KCF
+human8 MUSTer
+human8 STC
+human8 HCF
+human8 DLT
+human8 LCT
+human8 DSST
+human8 MEEM
+human8 TGPR
+human8 KCF
+human9 MUSTer
+human9 STC
+human9 HCF
+human9 DLT
+human9 LCT
+human9 DSST
+human9 MEEM
+human9 TGPR
+human9 KCF
+jump MUSTer
+jump STC
+jump HCF
+jump DLT
+jump LCT
+jump DSST
+jump MEEM
+jump TGPR
+jump KCF
+kiteSurf MUSTer
+kiteSurf STC
+kiteSurf HCF
+kiteSurf DLT
+kiteSurf LCT
+kiteSurf DSST
+kiteSurf MEEM
+kiteSurf TGPR
+kiteSurf KCF
+man MUSTer
+man STC
+man HCF
+man DLT
+man LCT
+man DSST
+man MEEM
+man TGPR
+man KCF
+panda MUSTer
+panda STC
+panda HCF
+panda DLT
+panda LCT
+panda DSST
+panda MEEM
+panda TGPR
+panda KCF
+redTeam MUSTer
+redTeam STC
+redTeam HCF
+redTeam DLT
+redTeam LCT
+redTeam DSST
+redTeam MEEM
+redTeam TGPR
+redTeam KCF
+rubik MUSTer
+rubik STC
+rubik HCF
+rubik DLT
+rubik LCT
+rubik DSST
+rubik MEEM
+rubik TGPR
+rubik KCF
+skater MUSTer
+skater STC
+skater HCF
+skater DLT
+skater LCT
+skater DSST
+skater MEEM
+skater TGPR
+skater KCF
+skater2 MUSTer
+skater2 STC
+skater2 HCF
+skater2 DLT
+skater2 LCT
+skater2 DSST
+skater2 MEEM
+skater2 TGPR
+skater2 KCF
+skating2-1 MUSTer
+skating2-1 STC
+skating2-1 HCF
+skating2-1 DLT
+skating2-1 LCT
+skating2-1 DSST
+skating2-1 MEEM
+skating2-1 TGPR
+skating2-1 KCF
+skating2-2 MUSTer
+skating2-2 STC
+skating2-2 HCF
+skating2-2 DLT
+skating2-2 LCT
+skating2-2 DSST
+skating2-2 MEEM
+skating2-2 TGPR
+skating2-2 KCF
+surfer MUSTer
+surfer STC
+surfer HCF
+surfer DLT
+surfer LCT
+surfer DSST
+surfer MEEM
+surfer TGPR
+surfer KCF
+toy MUSTer
+toy STC
+toy HCF
+toy DLT
+toy LCT
+toy DSST
+toy MEEM
+toy TGPR
+toy KCF
+trans MUSTer
+trans STC
+trans HCF
+trans DLT
+trans LCT
+trans DSST
+trans MEEM
+trans TGPR
+trans KCF
+twinnings MUSTer
+twinnings STC
+twinnings HCF
+twinnings DLT
+twinnings LCT
+twinnings DSST
+twinnings MEEM
+twinnings TGPR
+twinnings KCF
+vase MUSTer
+vase STC
+vase HCF
+vase DLT
+vase LCT
+vase DSST
+vase MEEM
+vase TGPR
+vase KCF
+illumination variation 35
+out-of-plane rotation 59
+scale variation 61
+occlusion 44
+deformation 39
+motion blur 29
+fast motion 37
+in-plane rotation 51
+out of view 14
+background clutter 31
+low resolution 9
+main_running
+Starting parallel pool (parpool) using the 'local' profile ... connected to 1 workers.
+1_SemanticTracking, 1_carDark: 1/1
+Loading images and models...
+Initializing scale estimator...
+Initializing NetC...
+Initializing NetT...
+Operation terminated by user during ST_extract_regions>(parfor body) (line 20)
+
+
+In parallel_function>make_general_channel/channel_general (line 914)
+                    O = F(C{:});
+
+In remoteParallelFunction (line 38)
+        out = parallel.internal.pool.serialize(feval(channel, channelArgs{:}));
+
+{Operation terminated by user during <a href="matlab:helpUtils.errorDocCallback('distcomp.remoteparfor/getCompleteIntervals', 'C:\Program Files\MATLAB\R2014a\toolbox\distcomp\distcomp\+distcomp\remoteparfor.m', 119)" style="font-weight:bold">distcomp.remoteparfor/getCompleteIntervals</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2014a\toolbox\distcomp\distcomp\+distcomp\remoteparfor.m',119,0)">line 119</a>)
+
+
+In <a href="matlab:helpUtils.errorDocCallback('parallel_function>distributed_execution', 'C:\Program Files\MATLAB\R2014a\toolbox\matlab\lang\parallel_function.m', 820)" style="font-weight:bold">parallel_function>distributed_execution</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2014a\toolbox\matlab\lang\parallel_function.m',820,0)">line 820</a>)
+        [tags, out] = P.getCompleteIntervals(chunkSize);
+
+In <a href="matlab:helpUtils.errorDocCallback('parallel_function', 'C:\Program Files\MATLAB\R2014a\toolbox\matlab\lang\parallel_function.m', 587)" style="font-weight:bold">parallel_function</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2014a\toolbox\matlab\lang\parallel_function.m',587,0)">line 587</a>)
+        R = distributed_execution(...
+
+In <a href="matlab:helpUtils.errorDocCallback('ST_extract_regions', 'C:\Users\JINGJING\Desktop\ST\SemanticTracking\tracking\ST_extract_regions.m', 17)" style="font-weight:bold">ST_extract_regions</a> (<a href="matlab: opentoline('C:\Users\JINGJING\Desktop\ST\SemanticTracking\tracking\ST_extract_regions.m',17,0)">line 17</a>)
+parfor i = 1:num_boxes
+
+In <a href="matlab:helpUtils.errorDocCallback('ST_classify_net', 'C:\Users\JINGJING\Desktop\ST\SemanticTracking\tracking\ST_classify_net.m', 17)" style="font-weight:bold">ST_classify_net</a> (<a href="matlab: opentoline('C:\Users\JINGJING\Desktop\ST\SemanticTracking\tracking\ST_classify_net.m',17,0)">line 17</a>)
+    imgs = ST_extract_regions(img, boxes, opts);
+
+In <a href="matlab:helpUtils.errorDocCallback('ST_run', 'C:\Users\JINGJING\Desktop\ST\SemanticTracking\tracking\ST_run.m', 75)" style="font-weight:bold">ST_run</a> (<a href="matlab: opentoline('C:\Users\JINGJING\Desktop\ST\SemanticTracking\tracking\ST_run.m',75,0)">line 75</a>)
+[NetS_feat, sample_class] = ST_classify_net(img, far_examples, NetS, NetC, opts);
+
+In <a href="matlab:helpUtils.errorDocCallback('demo_STinOTB', 'C:\Users\JINGJING\Desktop\ST\tracker_benchmark_v1.0\trackers\demo_STinOTB.m', 12)" style="font-weight:bold">demo_STinOTB</a> (<a href="matlab: opentoline('C:\Users\JINGJING\Desktop\ST\tracker_benchmark_v1.0\trackers\demo_STinOTB.m',12,0)">line 12</a>)
+results = ST_run(seq.s_frames, seq.init_rect, net);
+
+In <a href="matlab:helpUtils.errorDocCallback('main_running', 'C:\Users\JINGJING\Desktop\ST\tracker_benchmark_v1.0\main_running.m', 144)" style="font-weight:bold">main_running</a> (<a href="matlab: opentoline('C:\Users\JINGJING\Desktop\ST\tracker_benchmark_v1.0\main_running.m',144,0)">line 144</a>)
+                res=demo_STinOTB(subS, net);
+} 
+main_running
+{The client lost connection to worker 1. This might be due to network problems, or the interactive communicating job might have errored.
+} 
+if system_dependent('IsDebugMode')==1, dbquit; end
+perfPlot
+{Error using <a href="matlab:helpUtils.errorDocCallback('load')" style="font-weight:bold">load</a>
+Unable to read file '..\results\results_TRE\carDark_SemanticTracking.mat': no such file or directory.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('genPerfMat', 'C:\Users\JINGJING\Desktop\ST\tracker_benchmark_v1.0\rstEval\genPerfMat.m', 38)" style="font-weight:bold">genPerfMat</a> (<a href="matlab: opentoline('C:\Users\JINGJING\Desktop\ST\tracker_benchmark_v1.0\rstEval\genPerfMat.m',38,0)">line 38</a>)
+        load([rpAll s.name '_' t.name '.mat'])
+
+Error in <a href="matlab:helpUtils.errorDocCallback('perfPlot', 'C:\Users\JINGJING\Desktop\ST\tracker_benchmark_v1.0\perfPlot.m', 158)" style="font-weight:bold">perfPlot</a> (<a href="matlab: opentoline('C:\Users\JINGJING\Desktop\ST\tracker_benchmark_v1.0\perfPlot.m',158,0)">line 158</a>)
+            genPerfMat(seqs, trackers, evalType, nameTrkAll, perfMatPath);
+} 
+configTrackers
+
+ans = 
+
+    [1x1 struct]    [1x1 struct]    [1x1 struct]    [1x1 struct]    [1x1 struct]    [1x1 struct]    [1x1 struct]    [1x1 struct]    [1x1 struct]
+
+perfPlot
+carDark MUSTer
+carDark STC
+carDark HCF
+carDark DLT
+carDark LCT
+carDark DSST
+carDark MEEM
+carDark TGPR
+carDark KCF
+car4 MUSTer
+car4 STC
+car4 HCF
+car4 DLT
+car4 LCT
+car4 DSST
+car4 MEEM
+car4 TGPR
+car4 KCF
+david MUSTer
+david STC
+david HCF
+david DLT
+david LCT
+david DSST
+david MEEM
+david TGPR
+david KCF
+david2 MUSTer
+david2 STC
+david2 HCF
+david2 DLT
+david2 LCT
+david2 DSST
+david2 MEEM
+david2 TGPR
+david2 KCF
+sylvester MUSTer
+sylvester STC
+sylvester HCF
+sylvester DLT
+sylvester LCT
+sylvester DSST
+sylvester MEEM
+sylvester TGPR
+sylvester KCF
+trellis MUSTer
+trellis STC
+trellis HCF
+trellis DLT
+trellis LCT
+trellis DSST
+trellis MEEM
+trellis TGPR
+trellis KCF
+fish MUSTer
+fish STC
+fish HCF
+fish DLT
+fish LCT
+fish DSST
+fish MEEM
+fish TGPR
+fish KCF
+mhyang MUSTer
+mhyang STC
+mhyang HCF
+mhyang DLT
+mhyang LCT
+mhyang DSST
+mhyang MEEM
+mhyang TGPR
+mhyang KCF
+illumination variation 6
+out-of-plane rotation 5
+scale variation 3
+deformation 2
+in-plane rotation 4
+background clutter 3
