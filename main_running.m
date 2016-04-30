@@ -45,6 +45,7 @@ pathAnno = './anno/';
 for idxSeq=1:length(seqs)
     s = seqs{idxSeq};
     
+    
 %      if ~strcmp(s.name, 'coke')
 %         continue;
 %      end
@@ -96,7 +97,7 @@ for idxSeq=1:length(seqs)
             
     for idxTrk=1:numTrk
         t = trackers{idxTrk};
-
+        
 %         if ~strcmp(t.name, 'LSK')
 %             continue;
 %         end

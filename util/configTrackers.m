@@ -1,5 +1,8 @@
 function trackers=configTrackers
 
+fprintf('*********************************************************\n')
+tracker_id = input('What are you doing: 1-Running our tracker; 2-Evaluation\n*********************************************************\n');
+
 trackers1={   struct('name','CT','namePaper','CT'),...
     struct('name','TLD','namePaper','TLD'),...    
     struct('name','IVT','namePaper','IVT'),...
@@ -40,5 +43,9 @@ trackersCompare = {...
 trackersOURS = {struct('name','SemanticTracking','namePaper','ST')};
 
 % trackers = [trackersVIVID,trackers1,trackersEXE];
-% trackers = [trackersCompare];
-trackers = [trackersOURS];
+switch tracker_id
+    case 1
+        trackers = [trackersOURS];
+    case 2
+        trackers = [trackersCompare];
+end

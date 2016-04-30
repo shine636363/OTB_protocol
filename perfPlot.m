@@ -2,7 +2,8 @@ clear
 close all;
 clc
 
-addpath('./util');
+addpath(genpath('../results/'));
+addpath(genpath('./'));
 
 attPath = '.\anno\att\'; % The folder that contains the annotation files for sequence attributes
 
@@ -91,9 +92,9 @@ end
 
 attNum = size(att,2);
 
-figPath = '.\figs\overall\';
+figPath = '..\results\evaluation\figs\overall\';
 
-perfMatPath = '.\perfMat\overall\';
+perfMatPath = '..\results\evaluation\mat\overall\';
 
 if ~exist(figPath,'dir')
     mkdir(figPath);
@@ -115,7 +116,7 @@ end
 thresholdSetOverlap = 0:0.05:1;
 thresholdSetError = 0:50;
 
-for i=1:length(metricTypeSet)
+for i=1%:length(metricTypeSet)
     metricType = metricTypeSet{i};%error,overlap
     
     switch metricType
@@ -131,9 +132,9 @@ for i=1:length(metricTypeSet)
             yLabelName = 'Precision';
     end  
         
-    if strcmp(metricType,'error')&strcmp(rankingType,'AUC')
-        continue;
-    end
+%     if strcmp(metricType,'error')&strcmp(rankingType,'AUC')
+%         continue;
+%     end
     
     tNum = length(thresholdSet);
     
@@ -154,9 +155,9 @@ for i=1:length(metricTypeSet)
         
         % If the performance Mat file, dataName, does not exist, it will call
         % genPerfMat to generate the file.
-%         if ~exist(dataName)
+        if ~exist(dataName)
             genPerfMat(seqs, trackers, evalType, nameTrkAll, perfMatPath);
-%         end        
+        end        
         
         load(dataName);
         numTrk = size(aveSuccessRatePlot,1);        
@@ -193,6 +194,28 @@ for i=1:length(metricTypeSet)
             end
             
             plotDrawSave(numTrk,plotDrawStyle,aveSuccessRatePlot,idxSeqSet,rankNum,rankingType,rankIdx,nameTrkAll,thresholdSet,titleName, xLabelName,yLabelName,figName,metricType);
-        end        
+        end
+        
+        %------ display in overleaf -----
+        for id_tracker = 1: length(nameTrkAll)
+            res       = [nameTrkAll{id_tracker}];
+            for id_attri = 1: attNum
+                idxSeqSet = find(att(:,id_attri)>attTrld);
+                tmp = aveSuccessRatePlot(id_tracker, idxSeqSet,:);
+                aa=reshape(tmp,[length(idxSeqSet),size(aveSuccessRatePlot,3)]);
+                aa=aa(sum(aa,2)>eps,:);
+                bb=mean(aa);
+                switch rankingType
+                    case 'AUC'
+                        perf = mean(bb);
+                    case 'threshold'
+                        perf = bb(rankIdx);
+                end     
+                res = [res, '&', sprintf('%.3f', perf)];
+            end
+            disp(res)
+        end
+        pause
     end
 end
+

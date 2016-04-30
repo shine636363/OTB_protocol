@@ -2259,4 +2259,159 @@ if system_dependent('IsDebugMode')==1, dbquit; end
 } 
 main_running
 Starting parallel pool (parpool) using the 'local' profile ... connected to 1 workers.
-***********************
+********************************************
+Who are you: 1-Jingjing; 2-Qiang; 3-Linbo; 4-all
+{Operation terminated by user during <a href="matlab:helpUtils.errorDocCallback('configSeqs', 'C:\Users\JINGJING\Desktop\ST\OTB_protocol\util\configSeqs.m', 4)" style="font-weight:bold">configSeqs</a> (<a href="matlab: opentoline('C:\Users\JINGJING\Desktop\ST\OTB_protocol\util\configSeqs.m',4,0)">line 4</a>)
+
+
+In <a href="matlab:helpUtils.errorDocCallback('main_running', 'C:\Users\JINGJING\Desktop\ST\OTB_protocol\main_running.m', 17)" style="font-weight:bold">main_running</a> (<a href="matlab: opentoline('C:\Users\JINGJING\Desktop\ST\OTB_protocol\main_running.m',17,0)">line 17</a>)
+seqs=configSeqs;
+} 
+main_running
+***********************************************
+Who are you: 1-Jingjing; 2-Qiang; 3-Linbo; 4-all
+***********************************************
+{Operation terminated by user during <a href="matlab:helpUtils.errorDocCallback('configSeqs', 'C:\Users\JINGJING\Desktop\ST\OTB_protocol\util\configSeqs.m', 4)" style="font-weight:bold">configSeqs</a> (<a href="matlab: opentoline('C:\Users\JINGJING\Desktop\ST\OTB_protocol\util\configSeqs.m',4,0)">line 4</a>)
+
+
+In <a href="matlab:helpUtils.errorDocCallback('main_running', 'C:\Users\JINGJING\Desktop\ST\OTB_protocol\main_running.m', 17)" style="font-weight:bold">main_running</a> (<a href="matlab: opentoline('C:\Users\JINGJING\Desktop\ST\OTB_protocol\main_running.m',17,0)">line 17</a>)
+seqs=configSeqs;
+} 
+main_running
+*************************************************
+Who are you: 1-Jingjing; 2-Qiang; 3-Linbo; 4-all
+*************************************************
+{Operation terminated by user during <a href="matlab:helpUtils.errorDocCallback('configSeqs', 'C:\Users\JINGJING\Desktop\ST\OTB_protocol\util\configSeqs.m', 4)" style="font-weight:bold">configSeqs</a> (<a href="matlab: opentoline('C:\Users\JINGJING\Desktop\ST\OTB_protocol\util\configSeqs.m',4,0)">line 4</a>)
+
+
+In <a href="matlab:helpUtils.errorDocCallback('main_running', 'C:\Users\JINGJING\Desktop\ST\OTB_protocol\main_running.m', 17)" style="font-weight:bold">main_running</a> (<a href="matlab: opentoline('C:\Users\JINGJING\Desktop\ST\OTB_protocol\main_running.m',17,0)">line 17</a>)
+seqs=configSeqs;
+} 
+{The client lost connection to worker 1. This might be due to network problems, or the interactive communicating job might have errored.
+} 
+main_running
+Starting parallel pool (parpool) using the 'local' profile ... connected to 1 workers.
+*************************************************
+Who are you: 1-Jingjing; 2-Qiang; 3-Linbo; 4-all
+*************************************************
+1
+1_SemanticTracking, 1_soccer: 1/1
+Loading images and models...
+Initializing scale estimator...
+Initializing NetC...
+Initializing NetT...
+Processing frame 2/392: NetC and NetT working... 
+Processing frame 2/392: 0.991623 seconds
+Processing frame 3/392: NetC and NetT working... 
+Processing frame 3/392: 0.946167 seconds
+Processing frame 4/392: NetC and NetT working... 
+Processing frame 4/392: 0.909552 seconds
+Processing frame 5/392: NetC and NetT working... 
+Processing frame 5/392: 0.903943 seconds
+Processing frame 6/392: NetC and NetT working... 
+Processing frame 6/392: 0.943463 seconds
+Processing frame 7/392: NetC and NetT working... 
+Processing frame 7/392: 0.932637 seconds
+Processing frame 8/392: NetC and NetT working... 
+Processing frame 8/392: 0.902571 seconds
+{Operation terminated by user during parallel.internal.gpu.deviceProperties (line 28)
+
+
+In <a href="matlab:helpUtils.errorDocCallback('parallel.gpu.GPUDevice.current', 'C:\Program Files\MATLAB\R2014a\toolbox\distcomp\gpu\+parallel\+gpu\@GPUDevice\GPUDevice.m', 33)" style="font-weight:bold">parallel.gpu.GPUDevice.current</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2014a\toolbox\distcomp\gpu\+parallel\+gpu\@GPUDevice\GPUDevice.m',33,0)">line 33</a>)
+            [props, E] = parallel.internal.gpu.deviceProperties();
+
+In <a href="matlab:helpUtils.errorDocCallback('gpuDevice', 'C:\Program Files\MATLAB\R2014a\toolbox\distcomp\gpu\gpuDevice.m', 23)" style="font-weight:bold">gpuDevice</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2014a\toolbox\distcomp\gpu\gpuDevice.m',23,0)">line 23</a>)
+        dev = parallel.gpu.GPUDevice.current();
+
+In <a href="matlab:helpUtils.errorDocCallback('vl_simplenn', 'C:\Users\JINGJING\Desktop\ST\SemanticTracking\matconvnet\matlab\vl_simplenn.m', 189)" style="font-weight:bold">vl_simplenn</a> (<a href="matlab: opentoline('C:\Users\JINGJING\Desktop\ST\SemanticTracking\matconvnet\matlab\vl_simplenn.m',189,0)">line 189</a>)
+    wait(gpuDevice) ;
+
+In <a href="matlab:helpUtils.errorDocCallback('ST_classify_net', 'C:\Users\JINGJING\Desktop\ST\SemanticTracking\tracking\ST_classify_net.m', 30)" style="font-weight:bold">ST_classify_net</a> (<a href="matlab: opentoline('C:\Users\JINGJING\Desktop\ST\SemanticTracking\tracking\ST_classify_net.m',30,0)">line 30</a>)
+    res_s = vl_simplenn(NetS, batch, [], [], ...
+
+In <a href="matlab:helpUtils.errorDocCallback('ST_run', 'C:\Users\JINGJING\Desktop\ST\SemanticTracking\tracking\ST_run.m', 108)" style="font-weight:bold">ST_run</a> (<a href="matlab: opentoline('C:\Users\JINGJING\Desktop\ST\SemanticTracking\tracking\ST_run.m',108,0)">line 108</a>)
+        [NetS_feat, sample_class] = ST_classify_net(img, samples, NetS, NetC, opts);
+
+In <a href="matlab:helpUtils.errorDocCallback('demo_STinOTB', 'C:\Users\JINGJING\Desktop\ST\OTB_protocol\trackers\demo_STinOTB.m', 13)" style="font-weight:bold">demo_STinOTB</a> (<a href="matlab: opentoline('C:\Users\JINGJING\Desktop\ST\OTB_protocol\trackers\demo_STinOTB.m',13,0)">line 13</a>)
+results = ST_run(seq.s_frames, seq.init_rect, net, command_display);
+
+In <a href="matlab:helpUtils.errorDocCallback('main_running', 'C:\Users\JINGJING\Desktop\ST\OTB_protocol\main_running.m', 144)" style="font-weight:bold">main_running</a> (<a href="matlab: opentoline('C:\Users\JINGJING\Desktop\ST\OTB_protocol\main_running.m',144,0)">line 144</a>)
+                res=demo_STinOTB(subS, net);
+} 
+{The client lost connection to worker 1. This might be due to network problems, or the interactive communicating job might have errored.
+} 
+demo_STracking
+if system_dependent('IsDebugMode')==1, dbquit; end
+ST_run
+Loading images...
+{Error using <a href="matlab:helpUtils.errorDocCallback('ST_run', 'C:\Users\JINGJING\Desktop\ST\SemanticTracking\tracking\ST_run.m', 21)" style="font-weight:bold">ST_run</a> (<a href="matlab: opentoline('C:\Users\JINGJING\Desktop\ST\SemanticTracking\tracking\ST_run.m',21,0)">line 21</a>)
+Not enough input arguments.
+} 
+demo_STracking
+Loading images...
+Initializing scale estimator...
+Starting parallel pool (parpool) using the 'local' profile ... connected to 1 workers.
+Initializing NetC...
+Initializing NetT...
+Processing frame 2/215: NetC and NetT working... 
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+{The client lost connection to worker 1. This might be due to network problems, or the interactive communicating job might have errored.
+} 
+if system_dependent('IsDebugMode')==1, dbquit; end
+demo_STracking
+Loading images...
+Initializing scale estimator...
+Starting parallel pool (parpool) using the 'local' profile ... connected to 1 workers.
+Initializing NetC...
+Initializing NetT...
+{Undefined function 'ST_finetune_NetT' for input arguments of type 'struct'.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('ST_run', 'C:\Users\JINGJING\Desktop\ST\SemanticTracking\tracking\ST_run.m', 79)" style="font-weight:bold">ST_run</a> (<a href="matlab: opentoline('C:\Users\JINGJING\Desktop\ST\SemanticTracking\tracking\ST_run.m',79,0)">line 79</a>)
+NetT = ST_finetune_NetT(NetT,PSamples,NSamples,opts,...
+
+Error in <a href="matlab:helpUtils.errorDocCallback('demo_STracking', 'C:\Users\JINGJING\Desktop\ST\SemanticTracking\demo_STracking.m', 16)" style="font-weight:bold">demo_STracking</a> (<a href="matlab: opentoline('C:\Users\JINGJING\Desktop\ST\SemanticTracking\demo_STracking.m',16,0)">line 16</a>)
+result = ST_run(conf.imgList, conf.gt(1,:), net);
+} 
+{The client lost connection to worker 1. This might be due to network problems, or the interactive communicating job might have errored.
+} 
+demo_STracking
+Loading images...
+Initializing scale estimator...
+Starting parallel pool (parpool) using the 'local' profile ... connected to 1 workers.
+Initializing NetC...
+Initializing NetT...
+Processing frame 2/215: NetC and NetT working... 
+
+Initializing scale estimator...
+ [NetC, NetT] = ST_finetune_NetC_NetT(NetC, NetT, obj_class, PSamples,NSamples, opts,...
+            'maxiter',opts.maxiter_update,'learningRate',opts.learningRate_update);
+             'maxiter',opts.maxiter_update,'learningRate',opts.learningRate_update);
+                                                                                  |
+{Error: Unbalanced or unexpected parenthesis or bracket.
+} 
+ [NetC, NetT] = ST_finetune_NetC_NetT(NetC, NetT, obj_class, PSamples,NSamples, opts,...
+            'maxiter',opts.maxiter_update,'learningRate',opts.learningRate_update);
+<a href="matlab: opentoline('C:\Users\JINGJING\Desktop\ST\SemanticTracking\tracking\ST_finetune_NetC_NetT.m',30,1)">30  </a>for i=1:numel(NetC.layers)
+if system_dependent('IsDebugMode')==1, dbquit; end
+if system_dependent('IsDebugMode')==1, dbquit; end
+{The client lost connection to worker 1. This might be due to network problems, or the interactive communicating job might have errored.
+} 
+demo_STracking
+Loading images...
+Initializing scale estimator...
+Starting parallel pool (parpool) using the 'local' profile ... connected to 1 workers.
+ST_extract_regions(img, boxes(1,:), opts);
+if system_dependent('IsDebugMode')==1, dbquit; end
+demo_STracking
+Loading images...
+Initializing scale estimator...
+Initializing NetC...
+if system_dependent('IsDebugMode')==1, dbquit; end
+{The client lost connection to worker 1. This might be due to network problems, or the interactive communicating job might have errored.
+} 

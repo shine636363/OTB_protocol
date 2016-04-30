@@ -9,4 +9,5 @@ function results = demo_STinOTB(seq, net)
 
 warning off
 
-results = ST_run(seq.s_frames, seq.init_rect, net);
+command_display = 0;
+results = ST_run(seq.s_frames, seq.init_rect, net, command_display);

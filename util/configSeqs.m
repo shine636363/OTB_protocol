@@ -1,7 +1,7 @@
 function seqs=configSeqs
 
-fprintf('*************************************************\n')
-author_id = input('Who are you: 1-Jingjing; 2-Qiang; 3-Linbo; 4-all\n*************************************************\n');
+fprintf('********************************************************\n')
+author_id = input('Who are you: 1-Jingjing; 2-Qiang; 3-Linbo; 4-All\n********************************************************\n');
 
 seqJingjing={struct('name','soccer','path','..\dataset\OTB\soccer\img\','startFrame',1,'endFrame',392,'nz',4,'ext','jpg','init_rect', [0,0,0,0]),...
     struct('name','matrix','path','..\dataset\OTB\matrix\img\','startFrame',1,'endFrame',100,'nz',4,'ext','jpg','init_rect', [0,0,0,0]),...
