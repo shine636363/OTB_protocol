@@ -40,12 +40,12 @@ trackersCompare = {...
     struct('name','TGPR','namePaper','TGPR'),...
     struct('name','KCF','namePaper','KCF')};
 
-trackersOURS = {struct('name','SemanticTracking','namePaper','ST')};
+trackersOURS = {struct('name','SemanticTracking','namePaper','SemanticTracking')};
 
 % trackers = [trackersVIVID,trackers1,trackersEXE];
 switch tracker_id
     case 1
         trackers = [trackersOURS];
     case 2
-        trackers = [trackersCompare];
+        trackers = [trackersCompare, trackersOURS];
 end

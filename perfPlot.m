@@ -116,7 +116,7 @@ end
 thresholdSetOverlap = 0:0.05:1;
 thresholdSetError = 0:50;
 
-for i=1%:length(metricTypeSet)
+for i=1:length(metricTypeSet)
     metricType = metricTypeSet{i};%error,overlap
     
     switch metricType
@@ -215,6 +215,7 @@ for i=1%:length(metricTypeSet)
             end
             disp(res)
         end
+        fprintf('\n');
         pause
     end
 end

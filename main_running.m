@@ -141,8 +141,9 @@ for idxSeq=1:length(seqs)
                         cd(['./trackers/' t.name]);
                         addpath(genpath('./'))
                 end
-                
-                res=demo_STinOTB(subS, net);
+                ST_rest  = demo_STinOTB(subS, net);
+                res.res  = ST_rest;
+                res.type = 'rect';
                 
                 switch t.name
                     case {'SemanticTracking','VR','TM','RS','PD','MS'}
@@ -156,11 +157,11 @@ for idxSeq=1:length(seqs)
                     break;
                 end
             catch err
-                disp('error');
-                rmpath(genpath('./'))
-                cd('../../');
-                res=[];
-                continue;
+                disp(['error in ', subS.name]);
+%                 rmpath(genpath('./'))
+%                 cd('../../');
+%                 res=[];
+%                 continue;
             end
             
             res.len = subS.len;

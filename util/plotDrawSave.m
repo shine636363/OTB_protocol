@@ -34,7 +34,11 @@ for idxTrk=indexSort(1:rankNum)
     tmp=aveSuccessRatePlot(idxTrk,idxSeqSet,:);
     aa=reshape(tmp,[length(idxSeqSet),size(aveSuccessRatePlot,3)]);
     aa=aa(sum(aa,2)>eps,:);
-    bb=mean(aa);
+    if size(aa, 1)~=1
+        bb=mean(aa);
+    else
+        bb = aa;
+    end
     
     switch rankingType
         case 'AUC'
