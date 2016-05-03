@@ -47,5 +47,5 @@ switch tracker_id
     case 1
         trackers = [trackersOURS];
     case 2
-        trackers = [trackersCompare, trackersOURS];
+        trackers = [trackersOURS, trackersCompare];
 end

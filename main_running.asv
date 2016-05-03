@@ -45,6 +45,10 @@ for idxSeq=1:length(seqs)
 %      if ~strcmp(s.name, 'coke')
 %         continue;
 %      end
+
+     if ~strcmp(s.name, 'board')
+        continue;
+     end
         
     s.len = s.endFrame - s.startFrame + 1;
     s.s_frames = cell(s.len,1);
@@ -131,6 +135,7 @@ for idxSeq=1:length(seqs)
 %             subS.endFrame=subS.startFrame+subS.len-1;
             
 %             try
+                sjj = sjk;
                 switch t.name
                     case {'SemanticTracking','VR','TM','RS','PD','MS'}
                     otherwise
