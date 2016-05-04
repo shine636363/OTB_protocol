@@ -14,7 +14,11 @@ seq_length = results.len;
 if strcmp(results.type,'rect')
     for i = 2:seq_length
         r = results.res(i,:);
+        try
         r_anno = rect_anno(i,:);
+        catch err
+            diso('error')
+        end
         if (isnan(r) | r(3)<=0 | r(4)<=0)&(~isnan(r_anno))
             results.res(i,:)=results.res(i-1,:);
 %             results.res(i,:) = [1,1,1,1];

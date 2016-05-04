@@ -84,13 +84,10 @@ for idxSeq=1:length(seqs)
 
         case 'OPE'          
             [subSeqs, subAnno]=splitSeqTRE(s,numSeg,rect_anno);
-            
-            subS           = s;
-            subS.init_rect = rect_anno(1,:);
-            subS.annoBegin = 1;
-            subS.startFrame = 1;
-            subSeqs{1}     = subS;
-            subAnno{1}     = rect_anno;
+            subS           = subSeqs{1};
+            subA           = subAnno{1};
+            subSeqs(2:end) = [];
+            subAnno(2:end) = [];
         otherwise
     end
 
