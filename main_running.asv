@@ -38,17 +38,15 @@ end
 
 pathAnno = './anno/';
 
+start_t=clock;
+start_t=uint8(start_t(2:end));
+
 for idxSeq=1:length(seqs)
     s = seqs{idxSeq};
-    
     
 %      if ~strcmp(s.name, 'coke')
 %         continue;
 %      end
-
-     if ~strcmp(s.name, 'board')
-        continue;
-     end
         
     s.len = s.endFrame - s.startFrame + 1;
     s.s_frames = cell(s.len,1);
@@ -135,7 +133,6 @@ for idxSeq=1:length(seqs)
 %             subS.endFrame=subS.startFrame+subS.len-1;
             
 %             try
-                sjj = sjk;
                 switch t.name
                     case {'SemanticTracking','VR','TM','RS','PD','MS'}
                     otherwise
@@ -181,8 +178,12 @@ for idxSeq=1:length(seqs)
     end
 end
 
-figure
-t=clock;
-t=uint8(t(2:end));
-disp([num2str(t(1)) '/' num2str(t(2)) ' ' num2str(t(3)) ':' num2str(t(4)) ':' num2str(t(5))]);
+
+start_t=clock;
+start_t=uint8(start_t(2:end));
+
+
+end_t=clock;
+end_t=uint8(end_t(2:end));
+disp(['Stops:' num2str(end_t(1)) '(Month)/' num2str(end_t(2)) ' ' num2str(end_t(3)) ':' num2str(end_t(4)) ':' num2str(end_t(5))]);
 

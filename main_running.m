@@ -38,9 +38,11 @@ end
 
 pathAnno = './anno/';
 
+start_t=clock;
+start_t=uint8(start_t(2:end));
+
 for idxSeq=1:length(seqs)
     s = seqs{idxSeq};
-    
     
 %      if ~strcmp(s.name, 'coke')
 %         continue;
@@ -176,8 +178,9 @@ for idxSeq=1:length(seqs)
     end
 end
 
-figure
-t=clock;
-t=uint8(t(2:end));
-disp([num2str(t(1)) '/' num2str(t(2)) ' ' num2str(t(3)) ':' num2str(t(4)) ':' num2str(t(5))]);
+
+disp(['Start at: ' num2str(start_t(1)) '(Month)/' num2str(start_t(2)) ' ' num2str(start_t(3)) ':' num2str(start_t(4)) ':' num2str(start_t(5))]);
+end_t=clock;
+end_t=uint8(end_t(2:end));
+disp(['Stop at: ' num2str(end_t(1)) '(Month)/' num2str(end_t(2)) ' ' num2str(end_t(3)) ':' num2str(end_t(4)) ':' num2str(end_t(5))]);
 
