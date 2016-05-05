@@ -34,5 +34,16 @@ res        = (gt_class == NetC_class');
 ratio      = sum(res)/seq_num;
 disp(['The success ratio of NetC at first frame: ', num2str(ratio)])
 
+%------------ Display labels in images --------
+for id_s = 1: seq_num
+    conf = genConfig('otb',seqs{id_s}.name);    
+    disp(['video ', num2str(id_s), ' : ', conf.seqName])
+    img = imread(conf.imgList{1});
+    imshow(uint8(img))    
+    show_class = sprintf('Ground truth: %s , NetC : %s', class_name{gt_class(id_s)}, class_name{NetC_class(id_s)});
+    text(30,30, show_class,'fontsize' ,15,'fontweight' ,'bold' ,'color' ,'r' )
+    pause
+end
+
 
 
