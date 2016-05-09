@@ -1,7 +1,7 @@
 function trackers=configTrackers
 
-fprintf('*********************************************************\n')
-tracker_id = input('What are you doing: 1-Running our tracker; 2-Evaluation\n*********************************************************\n');
+fprintf('************************************************************\n')
+tracker_id = input('What are you doing: 1-Running our tracker; 2-Disply results\n************************************************************\n');
 
 trackers1={   struct('name','CT','namePaper','CT'),...
     struct('name','TLD','namePaper','TLD'),...    
