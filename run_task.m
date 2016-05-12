@@ -7,7 +7,7 @@ main_running
 
 system('git rm -rf ./tmp');
 
-system('git add -A');
+system('git add  ./results');
 system('git commit -m "resutlts-20160513"');
 system('git push');
 
