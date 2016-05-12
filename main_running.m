@@ -1,7 +1,6 @@
 close all
 clear
 clc
-return;
 warning off all;
 
 addpath(genpath('./'));
