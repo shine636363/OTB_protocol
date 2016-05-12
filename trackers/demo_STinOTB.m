@@ -6,6 +6,7 @@ function results = demo_STinOTB(seq, net)
 %
 % Jingjing Xiao & Qiang Lan & Linbo Qiao, 2016. 
 % 
+% test
 
 warning off
 

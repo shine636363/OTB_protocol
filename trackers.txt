@@ -23,3 +23,5 @@ TLD		Z. Kalal, J. Matas, and K. Mikolajczyk. P-N Learning: Bootstrapping Binary 
 Struck	S. Hare, A. Saffari, and P. H. S. Torr. Struck: Structured Output Tracking with Kernels. In ICCV, 2011. 
 CSK		F. Henriques, R. Caseiro, P. Martins, and J. Batista. Exploiting the Circulant Structure of Tracking-by-Detection with Kernels. In ECCV, 2012. 
 CXT		T. B. Dinh, N. Vo, and G. Medioni. Context Tracker: Exploring supporters and distracters in unconstrained environments. In CVPR, 2011. 
+
+
