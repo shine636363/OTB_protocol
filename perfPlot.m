@@ -216,7 +216,7 @@ for i=1:length(metricTypeSet)
             disp(res)
         end
         fprintf('\n');
-        pause
+%         pause
     end
 end
 
