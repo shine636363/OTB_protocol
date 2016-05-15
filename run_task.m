@@ -8,6 +8,6 @@ main_running
 
 system('git pull');
 system('git add  ./results');
-system('git commit -m "resutlts-update"');
+system('git commit -m "resutlts-6th"');
 system('git push');
 
