@@ -12,6 +12,6 @@ main_running
 
 system('git pull');
 system('git add  ./results');
-system('git commit -m "resutlts-8th"');
+system('git commit -m "resutlts-9th"');
 system('git push');
 
