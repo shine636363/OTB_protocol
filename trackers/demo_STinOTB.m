@@ -1,4 +1,4 @@
-function results = demo_STinOTB(seq, net)
+function [ST_rest_bbg, ST_rest_org] = demo_STinOTB(seq, net)
 % DEMO_STINOTB
 %
 % Interface with OTB protocol
@@ -11,4 +11,4 @@ function results = demo_STinOTB(seq, net)
 warning off
 
 command_display = 0;
-results = ST_run(seq.s_frames, seq.init_rect, net, command_display);
+[ST_rest_bbg, ST_rest_org] = ST_run(seq.s_frames, seq.init_rect, net, command_display);
