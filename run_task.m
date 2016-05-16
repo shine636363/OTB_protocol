@@ -2,6 +2,7 @@ system('git pull');
 cd ../SemanticTracking
 system('git pull');
 cd ../OTB_protocol
+
 system('git add  run_task.m');
 system('git commit -m "code update"');
 system('git push');
