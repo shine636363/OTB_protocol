@@ -24,9 +24,14 @@ numSeq=length(seqs);
 numTrk=length(trackers);
 
 finalPath = ['./results/results_Ours_' evalType '/'];
+orglPath = ['./results/results_Ours_org_' evalType '/'];
 
 if ~exist(finalPath,'dir')
     mkdir(finalPath);
+end
+
+if ~exist(orglPath,'dir')
+    mkdir(orglPath);
 end
 
 tmpRes_path = ['./tmp/' evalType '/'];
@@ -138,8 +143,8 @@ for idxSeq=1:length(seqs)
                         cd(['./trackers/' t.name]);
                         addpath(genpath('./'))
                 end
-                ST_rest  = demo_STinOTB(subS, net);
-                res.res  = ST_rest;
+                [ST_rest_bbg, ST_rest_org]  = demo_STinOTB(subS, net);
+                res.res  = ST_rest_bbg;
                 res.type = 'rect';
                 
                 switch t.name
@@ -174,6 +179,11 @@ for idxSeq=1:length(seqs)
             
         end
         save([finalPath s.name '_' t.name '.mat'], 'results');
+        
+        % add orignila results
+        res.res      = ST_rest_org;
+        results{idx} = res;        
+        save([orglPath s.name '_' t.name '.mat'], 'results');
     end
 end
 
