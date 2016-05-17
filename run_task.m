@@ -1,5 +1,5 @@
 
-system('git rm -rf  ./results');
+system('git rm -rf  ./tmp');
 system('git pull');
 cd ../SemanticTracking
 system('git pull');
@@ -9,7 +9,7 @@ system('git add  run_task.m');
 system('git commit -m "code update"');
 system('git push');
 
-main_running
+pmain_running
 
 
 system('git pull');
