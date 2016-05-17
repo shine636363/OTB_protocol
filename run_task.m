@@ -7,7 +7,7 @@ system('git add  run_task.m');
 system('git commit -m "code update"');
 system('git push');
 
-pmain_running
+main_running
 
 
 system('git pull');
