@@ -1,3 +1,5 @@
+
+system('git rm -rf  ./results');
 system('git pull');
 cd ../SemanticTracking
 system('git pull');
