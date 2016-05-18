@@ -155,9 +155,9 @@ for i=1:length(metricTypeSet)
         
         % If the performance Mat file, dataName, does not exist, it will call
         % genPerfMat to generate the file.
-        if ~exist(dataName)
+%         if ~exist(dataName)
             genPerfMat(seqs, trackers, evalType, nameTrkAll, perfMatPath);
-        end        
+%         end        
         
         load(dataName);
         numTrk = size(aveSuccessRatePlot,1);        

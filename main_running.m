@@ -181,9 +181,9 @@ for idxSeq=1:length(seqs)
         save([finalPath s.name '_' t.name '.mat'], 'results');
         
         % add orignila results
-        res.res      = ST_rest_org;
-        results{idx} = res;        
-        save([orglPath s.name '_' t.name '.mat'], 'results');
+%         res.res      = ST_rest_org;
+%         results{idx} = res;        
+%         save([orglPath s.name '_' t.name '.mat'], 'results');
     end
 end
 
