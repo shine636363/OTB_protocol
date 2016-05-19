@@ -1,0 +1,13 @@
+function rename_tracker()
+clear;clc;
+
+fold_path = '';
+Org_name  = 'NetC';
+New_name  = 'Baseline';
+seqs      = configSeqs;
+
+for ids = 1:length(seqs)
+    s = seqs{ids};
+    load(['./rename_baseline/', s.name '_' Org_name '.mat'])
+    save(['./rename_baseline/', s.name '_' New_name '.mat'], 'results');
+end
